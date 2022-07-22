@@ -1,0 +1,50 @@
+<h1 id="tableLabel">Keyboard</h1>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<div id="noteSystem"> <p id="currNote"></p> </div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+    <thead>
+        <tr>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let forecast of forecasts">
+            <td id="keyNotes">{{ forecast.notes }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div id = "nodes">
+    <button class="node" id='node1'></button>
+</div>
+
+<button class="key" id='C5' (click)="playAudio('../assets/sound/C5.mp3')"> </button>
+<button class="sharp" id="Db5" (click)="playAudio('../assets/sound/DB5.mp3')"> </button>
+<button class="key" id="D5" (click)="playAudio('../assets/sound/D5.mp3')"> </button>
+<button class="sharp" id="Eb5" (click)="playAudio('../assets/sound/EB5.mp3')"> </button>
+<button class="key" id="E5" (click)="playAudio('../assets/sound/E5.mp3')"> </button>
+<button class="key" id="F5" (click)="playAudio('../assets/sound/F5.mp3')"> </button>
+<button class="sharp" id="sharp3" (click)="playAudio('../assets/sound/GB5.mp3')"> </button>
+<button class="key" id="G5" (click)="playAudio('../assets/sound/G5.mp3')"> </button>
+<button class="sharp" id="Ab5" (click)="playAudio('../assets/sound/AB5.mp3')"> </button>
+<button class="key" id="A5" (click)="playAudio('../assets/sound/A5.mp3')"> </button>
+<button class="sharp" id="sharp5" (click)="playAudio('../assets/sound/BB5.mp3')"> </button>
+<button class="key" id="B5" (click)="playAudio('../assets/sound/B5.mp3')"> </button>
+
+<button class="key" id="key7" (click)="playAudio('../assets/sound/C6.mp3')"> </button>
+<button class="sharp" id="Db6" (click)="playAudio('../assets/sound/DB6.mp3')"> </button>
+<button class="key" id="key8" (click)="playAudio('../assets/sound/D6.mp3')"> </button>
+<button class="sharp" id="Eb6" (click)="playAudio('../assets/sound/EB6.mp3')"> </button>
+<button class="key" id="E6" (click)="playAudio('../assets/sound/E6.mp3')"> </button>
+<button class="key" id="key10" (click)="playAudio('../assets/sound/F6.mp3')"> </button>
+<button class="sharp" id="sharp8" (click)="playAudio('../assets/sound/GB6.mp3')"> </button>
+<button class="key" id="key11" (click)="playAudio('../assets/sound/G6.mp3')"> </button>
+<button class="sharp" id="sharp9" (click)="playAudio('../assets/sound/AB6.mp3')"> </button>
+<button class="key" id="key12" (click)="playAudio('../assets/sound/A6.mp3')"> </button>
+<button class="sharp" id="sharp10" (click)="playAudio('../assets/sound/BB6.mp3')"> </button>
+<button class="key" id="key13" (click)="playAudio('../assets/sound/B6.mp3')"> </button>
+
+<button class="begin" (click)="begin()">Broooo</button>

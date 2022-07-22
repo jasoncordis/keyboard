@@ -1,0 +1,171 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+.key {
+  position: absolute;
+  height: 300px;
+  width: 60px;
+  left: 0;
+}
+
+#C5 {
+  margin-left: 0px;
+}
+
+#D5 {
+  margin-left: 60px;
+}
+
+#E5 {
+  margin-left: 120px;
+}
+
+#F5 {
+  margin-left: 180px;
+}
+
+#G5 {
+  margin-left: 240px;
+}
+
+
+#A5 {
+  margin-left: 300px;
+}
+
+
+#B5 {
+  margin-left: 360px;
+}
+
+
+#key7 {
+  margin-left: 420px;
+}
+
+#key8 {
+  margin-left: 480px;
+}
+
+#E6 {
+  margin-left: 540px;
+}
+
+#key10 {
+  margin-left: 600px;
+}
+
+#key11 {
+  margin-left: 660px;
+}
+#key12 {
+  margin-left: 720px;
+}
+#key13 {
+  margin-left: 780px;
+}
+
+.sharp {
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  width:35px;
+  height:150px;
+  background-color: black;
+}
+
+#Db5 {
+  margin-left: 43px;
+}
+
+#Eb5 {
+  margin-left: 103px;
+}
+
+#sharp3 {
+  margin-left: 223px;
+}
+
+#Ab5 {
+  margin-left: 283px;
+}
+
+#sharp5 {
+  margin-left: 343px;
+}
+
+#Db6 {
+  margin-left: 463px;
+}
+
+#Eb6 {
+  margin-left: 523px;
+}
+
+#sharp8 {
+  margin-left: 643px;
+}
+
+#sharp9 {
+  margin-left: 703px;
+}
+
+#sharp10 {
+  margin-left: 763px;
+}
+
+.node {
+  position: absolute;
+  height: 80px;
+  width: 60px;
+  left: 0;
+  background-color: red;
+  margin-left: 60px;
+  pointer-events: none;
+}
+
+.begin {
+  height:500px;
+}
+
+#noteSystem {
+  height:500px;
+}
+
+#currNote {
+  font-size:300px;
+}
+
+#testMove {
+  position: absolute;
+  left:0;
+  width: 60px;
+  height: 100px;
+  margin-left: 0px;
+  background: red;
+}
+
+@keyframes mymove {
+  from {
+    top: 300px;
+  }
+
+  to {
+    top: 750px;
+  }
+}
